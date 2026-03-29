@@ -1,0 +1,5 @@
+com\weather\app\model\WeatherResponse.class
+com\weather\app\controller\WeatherController.class
+com\weather\app\WeatherApplication.class
+com\weather\app\service\WeatherService.class
+com\weather\app\config\AppConfig.class

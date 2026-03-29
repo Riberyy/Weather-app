@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: weather-app
+    env: java
+    buildCommand: cd backend && mvn clean package -DskipTests
+    startCommand: java -jar backend/target/weather-app-1.0.0.jar
+    healthCheckPath: /weather/health
